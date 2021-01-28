@@ -3,9 +3,9 @@ const password = document.getElementById("password")
 const button = document.getElementById("button")
 
 
-// button.addEventListener("click",() => {
-//     alert("ton email c'est : "+ email.value+" et ton mot de passe c'est : "+password.value+" t'es con en gros ?")
-//     email.value=""
-//     password.value=""
-// });
+button.addEventListener("click",() => {
+    console.log({email,password});
+    email.value=""
+    password.value=""
+});
 
