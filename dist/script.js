@@ -4,7 +4,7 @@ const button = document.getElementById("button")
 
 
 button.addEventListener("click",() => {
-    console.log({email,password});
+    console.log({email.value,password.value});
     email.value=""
     password.value=""
 });
